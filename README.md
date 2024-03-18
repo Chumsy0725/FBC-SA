@@ -7,6 +7,10 @@ This code is the official implementation of the following paper: [Towards Genera
 
 This code is built on top of [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch) and [ssdg-benchmark](https://github.com/KaiyangZhou/ssdg-benchmark). Please follow the instructions provided in https://github.com/KaiyangZhou/Dassl.pytorch and https://github.com/KaiyangZhou/ssdg-benchmark to install the `dassl` environment, as well as to prepare the datasets. 
 
+## Checkpoints
+
+All the checkpoints for our method on top of FixMatch are available on this [link](https://mega.nz/folder/UOUGSSaZ#KWk-X8uVgNhSpzUlnwG7DQ).
+
 ## How to run
 
 The script is provided in `ssdg-benchmark/scripts/FBASA/run_ssdg.sh`. You need to update the `DATA` variable that points to the directory where you put the datasets. There are three input arguments: `DATASET` and `NLAB` (total number of labels).
