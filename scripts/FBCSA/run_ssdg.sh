@@ -2,7 +2,7 @@
 
 cd ../..
 
-DATA=/home/computervision1/chums/CVPR/ssdg-benchmark/data
+DATA=''
 
 
 DATASET=$1
