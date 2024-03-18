@@ -44,5 +44,3 @@ python parse_test_res.py output/ssdg_pacs/nlab_210/FBCSA/resnet18 --multi-exp
       primaryClass={cs.CV}
 }
 ``` -->
-### Contact
-In case of any query, create issue or contact chanudithajayanga@gmail.com
