@@ -1,7 +1,9 @@
-# Towards Generalizing to Unseen Domains with Few Labels
+# Towards Generalizing to Unseen Domains with Few Labels - CVPR 2024
 
-This code is the official implementation of the following paper: [Towards Generalizing to Unseen Domains with Few Labels]().
+<!-- [![paper](https://img.shields.io/badge/arXiv-Paper-42FF33)](https://arxiv.org/abs/2403.02782) 
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://bimsarapathiraja.github.io/mccl-project-page/)   -->
 
+This repository gives the official implementation of [Towards Generalizing to Unseen Domains with Few Labels]() (CVPR 2024)
 
 ## How to setup the environment
 
@@ -31,4 +33,16 @@ To show the results, simply do
 python parse_test_res.py output/ssdg_pacs/nlab_210/FBCSA/resnet18 --multi-exp
 ```
 
-
+<!-- ### Citation
+```shell
+@misc{nagasinghe2024use,
+      title={Why Not Use Your Textbook? Knowledge-Enhanced Procedure Planning of Instructional Videos}, 
+      author={Kumaranage Ravindu Yasas Nagasinghe and Honglu Zhou and Malitha Gunawardhana and Martin Renqiang Min and Daniel Harari and Muhammad Haris Khan},
+      year={2024},
+      eprint={2403.02782},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+``` -->
+### Contact
+In case of any query, create issue or contact chanudithajayanga@gmail.com
