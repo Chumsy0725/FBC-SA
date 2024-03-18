@@ -25,9 +25,9 @@ fi
 TRAINER=FBCSA
 NET=resnet18
 
-for SEED in 1
+for SEED in 1 2 3 4 5
 do
-    for SETUP in 1
+    for SETUP in 1 2 3 4
     do
         if [ ${SETUP} == 1 ]; then
             S1=${D2}
