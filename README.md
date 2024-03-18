@@ -24,7 +24,7 @@ In this case, the code will run StyleMatch in four different setups (four target
 
 To show the results, simply do
 ```bash
-python parse_test_res.py output/ssdg_pacs/nlab_210/StyleMatch/resnet18/v1 --multi-exp
+python parse_test_res.py output/ssdg_pacs/nlab_210/FBCSA/resnet18 --multi-exp
 ```
 
 
