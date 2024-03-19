@@ -3,7 +3,7 @@
 <!-- [![paper](https://img.shields.io/badge/arXiv-Paper-42FF33)](https://arxiv.org/abs/2403.02782) 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://bimsarapathiraja.github.io/mccl-project-page/)   -->
 
-This repository gives the official implementation of [Towards Generalizing to Unseen Domains with Few Labels]() (CVPR 2024)
+This repository gives the official implementation of [Towards Generalizing to Unseen Domains with Few Labels](https://arxiv.org/abs/2403.11674) (CVPR 2024)
 
 ## How to setup the environment
 
