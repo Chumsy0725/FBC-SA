@@ -25,7 +25,7 @@ cd ssdg-benchmark/scripts/FBCSA
 bash run_ssdg.sh ssdg_officehome 1950 
 ```
 
-In this case, the code will run StyleMatch in four different setups (four target domains), each for five times (five random seeds). You can modify the code to run a single experiment instead of all at once if you have multiple GPUs.
+In this case, the code will run FBC-SA in four different setups (four target domains), each for five times (five random seeds). You can modify the code to run a single experiment instead of all at once if you have multiple GPUs.
 
 
 To show the results, simply do
