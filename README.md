@@ -33,14 +33,13 @@ To show the results, simply do
 python parse_test_res.py output/ssdg_officehome/nlab_1950/FBCSA/resnet18 --multi-exp
 ```
 
-<!-- ### Citation
+### Citation
 ```shell
-@misc{nagasinghe2024use,
-      title={Why Not Use Your Textbook? Knowledge-Enhanced Procedure Planning of Instructional Videos}, 
-      author={Kumaranage Ravindu Yasas Nagasinghe and Honglu Zhou and Malitha Gunawardhana and Martin Renqiang Min and Daniel Harari and Muhammad Haris Khan},
-      year={2024},
-      eprint={2403.02782},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{jay2024towards,
+title={Towards Generalizing to Unseen Domains with Few Labels},
+author={Chamuditha Jayanga Galappaththige, Sanoojan Baliah, Malitha Gunawardena, Muhammad Haris Khan},
+booktitle={Conference on Computer Vision and Pattern Recognition 2024},
+year={2024},
+url={https://openreview.net/forum?id=1XN2EMzH8N}
 }
-``` -->
+```
