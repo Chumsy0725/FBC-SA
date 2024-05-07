@@ -39,7 +39,6 @@ python parse_test_res.py output/ssdg_officehome/nlab_1950/FBCSA/resnet18 --multi
 title={Towards Generalizing to Unseen Domains with Few Labels},
 author={Chamuditha Jayanga Galappaththige, Sanoojan Baliah, Malitha Gunawardena, Muhammad Haris Khan},
 booktitle={Conference on Computer Vision and Pattern Recognition 2024},
-year={2024},
-url={https://openreview.net/forum?id=1XN2EMzH8N}
+year={2024}
 }
 ```
