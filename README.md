@@ -35,10 +35,11 @@ python parse_test_res.py output/ssdg_officehome/nlab_1950/FBCSA/resnet18 --multi
 
 ### Citation
 ```shell
-@inproceedings{jay2024towards,
-title={Towards Generalizing to Unseen Domains with Few Labels},
-author={Chamuditha Jayanga Galappaththige, Sanoojan Baliah, Malitha Gunawardena, Muhammad Haris Khan},
-booktitle={Conference on Computer Vision and Pattern Recognition 2024},
-year={2024}
+@inproceedings{galappaththige2024towards,
+  title={Towards Generalizing to Unseen Domains with Few Labels},
+  author={Galappaththige, Chamuditha Jayanga and Baliah, Sanoojan and Gunawardhana, Malitha and Khan, Muhammad Haris},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={23691--23700},
+  year={2024}
 }
 ```
