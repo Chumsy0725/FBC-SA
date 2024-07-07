@@ -19,45 +19,6 @@ from dassl.utils import count_num_param
 from .adain.adain import AdaIN
 
 
-@contextlib.contextmanager
-def freeze_models_params(models):
-    try:
-        for model in models:
-            for param in model.parameters():
-                param.requires_grad_(False)
-        yield
-    finally:
-        for model in models:
-            for param in model.parameters():
-                param.requires_grad_(True)
-
-
-class StochasticClassifier(nn.Module):
-    def __init__(self, num_features, num_classes, temp=0.05):
-        super().__init__()
-        self.mu = nn.Parameter(0.01 * torch.randn(num_classes, num_features))
-        self.sigma = nn.Parameter(torch.zeros(num_classes, num_features))
-        self.temp = temp
-
-    def forward(self, x, stochastic=True):
-        mu = self.mu
-        sigma = self.sigma
-
-        if stochastic:
-            sigma = F.softplus(sigma - 4)  # when sigma=0, softplus(sigma-4)=0.0181
-            weight = sigma * torch.randn_like(mu) + mu
-        else:
-            weight = mu
-
-        weight = F.normalize(weight, p=2, dim=1)
-        x = F.normalize(x, p=2, dim=1)
-
-        score = F.linear(x, weight)
-        score = score / self.temp
-
-        return score
-
-
 class NormalClassifier(nn.Module):
     def __init__(self, num_features, num_classes):
         super().__init__()
@@ -198,7 +159,6 @@ class FBCSA(TrainerXU):
         # Unsupervised loss
         ####################
         loss_u_aug = 0
-        loss_u_sty = 0
         loss_u_feat_clas = 0
         loss_u_sim = 0
         for k in range(K):
@@ -214,7 +174,6 @@ class FBCSA(TrainerXU):
             loss = F.cross_entropy(z_xu_k_aug, y_xu_k_pred, reduction="none")
             loss = (loss * mask_xu_k).mean()
             loss_u_aug += loss
-
 
             # FBC Loss
             feat = self.feat[k]
