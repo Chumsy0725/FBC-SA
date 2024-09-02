@@ -5,6 +5,10 @@
 
 This repository gives the official implementation of [Towards Generalizing to Unseen Domains with Few Labels](https://arxiv.org/abs/2403.11674) (CVPR 2024)
 
+### Update 
+
+Check out our follow-up work on SSDG at [Domain-Guided Weight Modulation for Semi-Supervised Domain Generalization](https://github.com/Chumsy0725/DGWM) (WACV 2025)
+
 ## How to setup the environment
 
 This code is built on top of [Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch) and [ssdg-benchmark](https://github.com/KaiyangZhou/ssdg-benchmark). Please follow the instructions provided in https://github.com/KaiyangZhou/Dassl.pytorch and https://github.com/KaiyangZhou/ssdg-benchmark to install the `dassl` environment, as well as to prepare the datasets. 
