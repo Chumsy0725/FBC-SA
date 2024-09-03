@@ -19,13 +19,13 @@ All the checkpoints for our method on top of FixMatch are available on this [lin
 
 ## How to run
 
-The script is provided in `ssdg-benchmark/scripts/FBASA/run_ssdg.sh`. You need to update the `DATA` variable that points to the directory where you put the datasets. There are two input arguments: `DATASET` and `NLAB` (total number of labels).
+The script is provided in `/scripts/FBASA/run_ssdg.sh`. You need to update the `DATA` variable that points to the directory where you put the datasets. There are two input arguments: `DATASET` and `NLAB` (total number of labels).
 
 
 Here we give an example. Say you want to run FBC-SA on OfficHome under the 10-labels-per-class setting (i.e. 1950 labels in total), simply run the following commands in your terminal,
 ```bash
 conda activate dassl
-cd ssdg-benchmark/scripts/FBCSA
+cd scripts/FBCSA
 bash run_ssdg.sh ssdg_officehome 1950 
 ```
 
